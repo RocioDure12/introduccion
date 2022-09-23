@@ -33,10 +33,6 @@ FinProceso
 """
 
 
-toppings=" "
-
-while topping != "&#39":
-    topping=input("Ingrese topping")
 
     
     
