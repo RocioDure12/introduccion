@@ -32,6 +32,16 @@ FinProceso
 
 """
 
+topping=" "
+toppings=""
+
+while topping != "salir":
+    topping=input("Agrega el topping que quieras")
+    if topping != "salir":
+        toppings = toppings + " " + topping
+        
+print ("Su pizza llevara los siguientes toppings: ", toppings)
+
 
 
     

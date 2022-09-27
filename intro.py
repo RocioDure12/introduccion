@@ -31,6 +31,7 @@ print(type(nombre))
 
 # Variable names are case-sensitive
 
+
 # Estructuras condicionales
 sueldo = float(input("ingrese sueldo"))
 if sueldo > 3000:
