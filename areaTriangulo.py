@@ -22,3 +22,4 @@ mostrar_lista(numeros)
 mostrar_lista(palabras)
 sumatoria=sumar(numeros)
 print("sumatoria", sumatoria)
+

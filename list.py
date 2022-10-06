@@ -30,5 +30,14 @@ while y < len(fruits):
 print(len(fruits))
 print(y)
 
+"""
+RANGE FUNCTION
 
+The range function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default)
+and stops before a specified number
 
+SYNTAX: range(start, stop, step)
+START optional (position to start)
+STOP required (position to stop, not included)
+STEP optional (specifying the incrementation. Default is 1)
+"""
