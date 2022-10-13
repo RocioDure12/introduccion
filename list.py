@@ -41,3 +41,14 @@ START optional (position to start)
 STOP required (position to stop, not included)
 STEP optional (specifying the incrementation. Default is 1)
 """
+# Create a sequence of numbers from 3 to 19, but increment by 2 instead of 1
+
+lolo = range(3, 19, 2)
+for n in lolo:
+    print(n)
+
+listOfFruits = ["manzana", "banana", "anana"]
+print(len(listOfFruits))
+
+for j in range(len(listOfFruits)):
+    print(listOfFruits[j])
