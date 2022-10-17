@@ -5,21 +5,24 @@ def area(base, altura):
 
 area(14, 4)
 
-#Funciones con listas
+# Funciones con listas
+
+
 def mostrar_lista(lista):
     for i in range(len(lista)):
         print(lista[i], end=" ")
-        
+
+
 def sumar(lista):
-    suma=0
+    suma = 0
     for i in range(len(lista)):
-        suma +=lista[i]
+        suma += lista[i]
     return suma
-        
-numeros=[-2,-8,-7,-9]
-palabras=["ave", "ballena", "luna"]
+
+
+numeros = [-2, -8, -7, -9]
+palabras = ["ave", "ballena", "luna"]
 mostrar_lista(numeros)
 mostrar_lista(palabras)
-sumatoria=sumar(numeros)
+sumatoria = sumar(numeros)
 print("sumatoria", sumatoria)
-
