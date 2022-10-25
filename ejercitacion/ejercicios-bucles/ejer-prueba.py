@@ -40,7 +40,7 @@ for i in range(len(codigo)):
 
 print(palabraSecreta)
 """
-codigo="HGorLa*c?isarsq!"
+"""codigo="HGorLa*c?isarsq!"
 palabraSecreta=""
 for i in range(len(codigo)):
     if codigo[i]=="*":
@@ -51,3 +51,22 @@ print(palabraSecreta)
 
 
 print(palabraSecreta)
+"""
+"""
+nombre="Juana"
+for i in nombre:
+    print(i)
+    
+letra="a"
+cantidad=0
+for x in nombre:
+    if x == letra:
+        cantidad=cantidad+1
+print(cantidad)   
+"""
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(thisdict)
